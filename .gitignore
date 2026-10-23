@@ -1,0 +1,11 @@
+# Dependencies
+node_modules/
+.npm/
+
+# Logs & Temp
+*.log
+edge_temp/
+
+# Python cache & test scripts
+__pycache__/
+*.pyc

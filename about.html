@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | H.S. Power Services</title>
+  <meta name="description" content="Company background, leadership, and operational footprint of H.S. Power Services, a registered partnership firm delivering infrastructure solutions across UP and MP.">
+  <link rel="icon" type="image/png" href="assets/img/logo/favicon.png">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: {
+              DEFAULT: '#14283F',
+              deep: '#0B1726',
+              surface: '#1B334E',
+              subtle: '#243E5E',
+            },
+            cyan: {
+              hps: '#00B6FE',
+            },
+            bronze: {
+              DEFAULT: '#C49A52',
+              light: '#DFC08A',
+              dark: '#9F7836',
+            },
+            canvas: {
+              DEFAULT: '#F6F7F8',
+              subtle: '#EEF1F4',
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+            heading: ['Manrope', 'system-ui', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Google Fonts & Lucide Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Master Architectural Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="bg-[#F6F7F8] text-[#111827] antialiased font-sans selection:bg-[#14283F] selection:text-white">
+
+  <!-- TOP UTILITY STRIP -->
+  <div class="bg-[#0B1726] text-slate-300 text-xs py-2 px-4 sm:px-8 border-b border-white/10">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-2">
+      <div class="flex flex-wrap items-center justify-center md:justify-start gap-5">
+        <span class="inline-flex items-center gap-1.5 text-slate-300">
+          <i data-lucide="map-pin" class="w-3.5 h-3.5 text-[#C49A52]"></i>
+          1/374, Jankipuram Extension, Lucknow, Uttar Pradesh
+        </span>
+        <span class="hidden sm:inline text-white/20">|</span>
+        <a href="tel:7905701738" class="inline-flex items-center gap-1.5 hover:text-white text-slate-300 transition-colors">
+          <i data-lucide="phone" class="w-3.5 h-3.5 text-[#C49A52]"></i>
+          +91 7905701738
+        </a>
+        <a href="tel:8840396248" class="hidden sm:inline-flex items-center gap-1.5 hover:text-white text-slate-300 transition-colors">
+          <i data-lucide="phone" class="w-3.5 h-3.5 text-[#C49A52]"></i>
+          +91 8840396248
+        </a>
+      </div>
+      <div class="flex items-center gap-4">
+        <span class="text-slate-400">Operating across: <strong class="text-slate-200 font-medium">UP East & Madhya Pradesh</strong></span>
+        <span class="text-white/20 hidden md:inline">|</span>
+        <a href="assets/docs/HS_Power_Services_Company_Profile.pdf" download class="inline-flex items-center gap-1 text-[#C49A52] hover:text-[#DFC08A] font-medium transition-colors">
+          <i data-lucide="download" class="w-3.5 h-3.5"></i>
+          Company Profile PDF
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAVIGATION HEADER -->
+  <header class="sticky top-0 z-50 bg-white border-b border-slate-200 shadow-xs">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        
+        <a href="index.html" class="flex items-center gap-3.5 group">
+          <img src="assets/img/logo/hps_logo_navbar.png" alt="H.S. Power Services Logo" class="h-11 sm:h-12 w-auto object-contain">
+          <div class="flex flex-col border-l border-slate-200 pl-3">
+            <span class="font-heading font-extrabold text-lg sm:text-xl tracking-tight text-[#14283F] leading-none">
+              H.S. POWER SERVICES
+            </span>
+            <span class="text-[10px] font-semibold uppercase tracking-wider text-[#687587] mt-1">
+              Engineering & Infrastructure Contractors
+            </span>
+          </div>
+        </a>
+
+        <nav class="hidden lg:flex items-center gap-7 font-medium text-sm text-[#111827]">
+          <a href="index.html" class="text-slate-600 hover:text-[#14283F] pb-1 transition-colors">Home</a>
+          <a href="about.html" class="text-[#14283F] font-bold border-b-2 border-[#C49A52] pb-1">About Us</a>
+          <a href="services.html" class="text-slate-600 hover:text-[#14283F] pb-1 transition-colors">Services</a>
+          <a href="projects.html" class="text-slate-600 hover:text-[#14283F] pb-1 transition-colors">Projects</a>
+          <a href="index.html#hubs" class="text-slate-600 hover:text-[#14283F] pb-1 transition-colors">Regional Hubs</a>
+          <a href="index.html#clients" class="text-slate-600 hover:text-[#14283F] pb-1 transition-colors">Our Clients</a>
+          <a href="contact.html" class="text-slate-600 hover:text-[#14283F] pb-1 transition-colors">Contact</a>
+        </nav>
+
+        <div class="hidden sm:flex items-center gap-3">
+          <a href="contact.html" class="btn-primary">
+            <span>Request a Quote</span>
+            <i data-lucide="arrow-right" class="w-3.5 h-3.5 text-[#00B6FE]"></i>
+          </a>
+        </div>
+
+        <button id="mobile-menu-btn" class="lg:hidden p-2 text-slate-700 hover:bg-slate-100 rounded" aria-label="Toggle Navigation">
+          <i data-lucide="menu" class="w-6 h-6"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div id="mobile-menu" class="hidden lg:hidden border-b border-slate-200 bg-white px-5 pt-3 pb-6 space-y-3 shadow-xl">
+      <div class="flex justify-between items-center pb-2 border-b border-slate-100">
+        <span class="text-xs uppercase font-bold tracking-wider text-slate-400">Navigation</span>
+        <button id="mobile-menu-close" class="p-1 text-slate-500 hover:text-slate-900" aria-label="Close menu">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+      <div class="grid gap-2 text-sm font-medium text-slate-800">
+        <a href="index.html" class="mobile-nav-link py-2 px-3 rounded hover:bg-slate-50">Home</a>
+        <a href="about.html" class="mobile-nav-link py-2 px-3 rounded bg-slate-50 text-[#14283F] font-bold">About Us</a>
+        <a href="services.html" class="mobile-nav-link py-2 px-3 rounded hover:bg-slate-50">Services</a>
+        <a href="projects.html" class="mobile-nav-link py-2 px-3 rounded hover:bg-slate-50">Projects</a>
+        <a href="index.html#hubs" class="mobile-nav-link py-2 px-3 rounded hover:bg-slate-50">Regional Hubs</a>
+        <a href="index.html#clients" class="mobile-nav-link py-2 px-3 rounded hover:bg-slate-50">Our Clients</a>
+        <a href="contact.html" class="mobile-nav-link py-2 px-3 rounded hover:bg-slate-50">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- EDITORIAL PAGE HEADER -->
+  <section class="bg-white border-b border-slate-200 py-16 sm:py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl">
+      <div class="editorial-eyebrow mb-2">Corporate Profile</div>
+      <h1 class="font-heading font-extrabold text-3xl sm:text-4xl lg:text-5xl text-[#14283F] tracking-tight">
+        About H.S. Power Services
+      </h1>
+      <p class="text-slate-600 text-base sm:text-lg mt-3 leading-relaxed">
+        A registered partnership firm established in 2017, providing comprehensive contractual solutions across telecom infrastructure, commercial solar energy, EV fast charging stations, and civil engineering.
+      </p>
+    </div>
+  </section>
+
+  <!-- COMPANY BACKGROUND & STATUTORY DETAILS -->
+  <section class="py-16 sm:py-24 bg-[#F6F7F8] border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-12 gap-12 lg:gap-16 items-start">
+        
+        <div class="lg:col-span-7 space-y-6">
+          <div class="space-y-4">
+            <h2 class="font-heading font-extrabold text-2xl sm:text-3xl text-[#14283F] tracking-tight">
+              Established Technical Expertise & Operational Discipline
+            </h2>
+            <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+              <strong>H.S. Power Services</strong> is a partnership firm headquartered in Jankipuram Extension, Lucknow. We operate as a dedicated contractual service provider to leading telecom tower infrastructure providers, solar power developers, EV charging network operators, and civil construction companies.
+            </p>
+            <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+              Our service model is grounded in qualified engineering supervision, end-to-end site execution from civil casting to power commissioning, and structured preventive maintenance to ensure high network uptime.
+            </p>
+          </div>
+
+          <!-- Mission, Vision & Goals -->
+          <div class="grid sm:grid-cols-3 gap-4 pt-2">
+            <div class="p-5 rounded-xs border border-slate-200 bg-white">
+              <span class="editorial-eyebrow mb-1">Our Mission</span>
+              <p class="text-xs text-slate-600 leading-relaxed mt-2">To provide best engineering services at lowest cost while maintaining rigorous technical standards.</p>
+            </div>
+            <div class="p-5 rounded-xs border border-slate-200 bg-white">
+              <span class="editorial-eyebrow mb-1">Our Vision</span>
+              <p class="text-xs text-slate-600 leading-relaxed mt-2">To ensure total client satisfaction through dependable execution and zero-punch-point site delivery.</p>
+            </div>
+            <div class="p-5 rounded-xs border border-slate-200 bg-white">
+              <span class="editorial-eyebrow mb-1">Our Goals</span>
+              <p class="text-xs text-slate-600 leading-relaxed mt-2">To expand our contractual capabilities from UP and MP across all of India.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Corporate Facts Box -->
+        <div class="lg:col-span-5">
+          <div class="bg-white border border-slate-200 rounded-xs p-6 sm:p-7 space-y-4 shadow-xs">
+            <h3 class="font-heading font-bold text-base text-[#14283F] pb-3 border-b border-slate-200">
+              Verified Firm Details
+            </h3>
+
+            <div class="space-y-3 text-xs text-slate-700">
+              <div class="flex justify-between py-1 border-b border-slate-100">
+                <span class="text-slate-500">Legal Entity:</span>
+                <span class="font-semibold text-[#14283F]">Partnership Firm</span>
+              </div>
+              <div class="flex justify-between py-1 border-b border-slate-100">
+                <span class="text-slate-500">Established:</span>
+                <span class="font-semibold text-[#14283F]">2017</span>
+              </div>
+              <div class="flex justify-between py-1 border-b border-slate-100">
+                <span class="text-slate-500">Head Office:</span>
+                <span class="font-semibold text-[#14283F]">1/374, Jankipuram Ext., Lucknow</span>
+              </div>
+              <div class="flex justify-between py-1 border-b border-slate-100">
+                <span class="text-slate-500">Partner 1:</span>
+                <span class="font-semibold text-[#14283F]">Sanjeev Srivastava</span>
+              </div>
+              <div class="flex justify-between py-1 border-b border-slate-100">
+                <span class="text-slate-500">Partner 2:</span>
+                <span class="font-semibold text-[#14283F]">H.K. Singh</span>
+              </div>
+              <div class="flex justify-between py-1">
+                <span class="text-slate-500">Telephones:</span>
+                <span class="font-semibold text-[#14283F]">+91 7905701738, +91 8840396248</span>
+              </div>
+            </div>
+
+            <div class="pt-3">
+              <a href="assets/docs/HS_Power_Services_Company_Profile.pdf" download class="btn-primary w-full text-center">
+                Download Official PDF Profile
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- LEADERSHIP & TEAM (EXACT FROM PAGE 15 OF PROFILE) -->
+  <section class="py-16 sm:py-24 bg-white border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="max-w-3xl mb-12">
+        <div class="editorial-eyebrow">Leadership</div>
+        <h2 class="font-heading font-extrabold text-2xl sm:text-3xl text-[#14283F] tracking-tight mt-1">
+          Key People & Operations Governance
+        </h2>
+        <p class="text-slate-600 text-sm mt-1">
+          Executive leadership and operational staff documented in the company profile.
+        </p>
+      </div>
+
+      <!-- Partners -->
+      <div class="grid sm:grid-cols-2 gap-6 max-w-3xl mb-10">
+        <div class="p-6 rounded-xs border border-slate-200 bg-[#F6F7F8]">
+          <span class="text-[11px] font-heading font-bold uppercase tracking-wider text-[#C49A52] block mb-1">Partner 1</span>
+          <h3 class="font-heading font-bold text-lg text-[#14283F]">Sanjeev Srivastava</h3>
+          <p class="text-xs text-slate-600 mt-1">Commercial negotiations, client contracts, and strategic operations leadership.</p>
+        </div>
+
+        <div class="p-6 rounded-xs border border-slate-200 bg-[#F6F7F8]">
+          <span class="text-[11px] font-heading font-bold uppercase tracking-wider text-[#C49A52] block mb-1">Partner 2</span>
+          <h3 class="font-heading font-bold text-lg text-[#14283F]">H.K. Singh</h3>
+          <p class="text-xs text-slate-600 mt-1">Technical governance, field engineering supervision, and quality assurance.</p>
+        </div>
+      </div>
+
+      <!-- Department: Operation (Exact Names from Page 15) -->
+      <div class="max-w-3xl p-6 rounded-xs border border-slate-200 bg-[#F6F7F8]">
+        <h4 class="font-heading font-bold text-xs uppercase tracking-wider text-[#14283F] pb-3 border-b border-slate-200 mb-3">
+          Department - Operation
+        </h4>
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-2.5 text-center text-xs">
+          <div class="p-2.5 bg-white rounded-xs border border-slate-200 font-medium text-slate-800">Rajiv Verma</div>
+          <div class="p-2.5 bg-white rounded-xs border border-slate-200 font-medium text-slate-800">Anshuman</div>
+          <div class="p-2.5 bg-white rounded-xs border border-slate-200 font-medium text-slate-800">Saurabh Srivastava</div>
+          <div class="p-2.5 bg-white rounded-xs border border-slate-200 font-medium text-slate-800">Abhishek Shukla</div>
+          <div class="p-2.5 bg-white rounded-xs border border-slate-200 font-medium text-slate-800">Abhiruchi Srivastava</div>
+          <div class="p-2.5 bg-white rounded-xs border border-slate-200 font-medium text-slate-800">Shashi Singh</div>
+          <div class="p-2.5 bg-white rounded-xs border border-slate-200 font-medium text-slate-800">Sudhakar Singh</div>
+          <div class="p-2.5 bg-white rounded-xs border border-slate-200 font-medium text-slate-800">Sarvesh</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- DOCUMENTED OPERATING REGIONS -->
+  <section class="py-16 sm:py-24 bg-[#F6F7F8] border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl mb-10">
+        <div class="editorial-eyebrow">Geographical Footprint</div>
+        <h2 class="font-heading font-extrabold text-2xl sm:text-3xl text-[#14283F] tracking-tight mt-1">
+          Documented Operating Locations
+        </h2>
+        <p class="text-slate-600 text-sm mt-1">
+          Territories and operational clusters documented in the company profile.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div class="p-4 bg-white rounded-xs border border-slate-200">
+          <span class="font-heading font-bold text-sm text-[#14283F] block">Lucknow</span>
+          <span class="text-xs text-slate-500 mt-0.5 block">Central Headquarters & Hub</span>
+        </div>
+        <div class="p-4 bg-white rounded-xs border border-slate-200">
+          <span class="font-heading font-bold text-sm text-[#14283F] block">Gorakhpur</span>
+          <span class="text-xs text-slate-500 mt-0.5 block">Eastern UP Operations</span>
+        </div>
+        <div class="p-4 bg-white rounded-xs border border-slate-200">
+          <span class="font-heading font-bold text-sm text-[#14283F] block">Varanasi</span>
+          <span class="text-xs text-slate-500 mt-0.5 block">Purvanchal Telecom & Solar</span>
+        </div>
+        <div class="p-4 bg-white rounded-xs border border-slate-200">
+          <span class="font-heading font-bold text-sm text-[#14283F] block">Prayagraj</span>
+          <span class="text-xs text-slate-500 mt-0.5 block">Network & OHE Infrastructure</span>
+        </div>
+        <div class="p-4 bg-white rounded-xs border border-slate-200">
+          <span class="font-heading font-bold text-sm text-[#14283F] block">Kanpur</span>
+          <span class="text-xs text-slate-500 mt-0.5 block">Industrial Solar & Network</span>
+        </div>
+        <div class="p-4 bg-white rounded-xs border border-slate-200">
+          <span class="font-heading font-bold text-sm text-[#14283F] block">Banda</span>
+          <span class="text-xs text-slate-500 mt-0.5 block">Bundelkhand Regional Work</span>
+        </div>
+        <div class="p-4 bg-white rounded-xs border border-slate-200">
+          <span class="font-heading font-bold text-sm text-[#14283F] block">Madhya Pradesh (MP)</span>
+          <span class="text-xs text-slate-500 mt-0.5 block">Small Cell Pole Deployments</span>
+        </div>
+        <div class="p-4 bg-white rounded-xs border border-slate-200">
+          <span class="font-heading font-bold text-sm text-[#14283F] block">Pan-India Target</span>
+          <span class="text-xs text-slate-500 mt-0.5 block">Expanding National Footprint</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-[#0B1726] text-slate-400 text-xs py-10 border-t border-slate-800 text-center">
+    <div class="max-w-7xl mx-auto px-4">
+      <div>© 2026 H.S. POWER SERVICES. All Rights Reserved. • Office: 1/374, Jankipuram Extension, Lucknow</div>
+    </div>
+  </footer>
+
+  <!-- BACK TO TOP -->
+  <button id="back-to-top" class="back-to-top-btn" title="Back to top" aria-label="Back to top">
+    <i data-lucide="chevron-up" class="w-5 h-5"></i>
+  </button>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

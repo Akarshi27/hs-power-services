@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Engineering Services & Capabilities | H.S. Power Services</title>
+  <meta name="description" content="Technical scope and execution capabilities of H.S. Power Services across Telecom Towers, Commercial Solar EPC, Fast EV Charging Stations, and Railway OHE Foundations.">
+  <link rel="icon" type="image/png" href="assets/img/logo/favicon.png">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: {
+              DEFAULT: '#14283F',
+              deep: '#0B1726',
+              surface: '#1B334E',
+              subtle: '#243E5E',
+            },
+            cyan: {
+              hps: '#00B6FE',
+            },
+            bronze: {
+              DEFAULT: '#C49A52',
+              light: '#DFC08A',
+              dark: '#9F7836',
+            },
+            canvas: {
+              DEFAULT: '#F6F7F8',
+              subtle: '#EEF1F4',
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+            heading: ['Manrope', 'system-ui', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Google Fonts & Lucide Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Master Architectural Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="bg-[#F6F7F8] text-[#111827] antialiased font-sans selection:bg-[#14283F] selection:text-white">
+
+  <!-- TOP UTILITY STRIP -->
+  <div class="bg-[#0B1726] text-slate-300 text-xs py-2 px-4 sm:px-8 border-b border-white/10">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-2">
+      <div class="flex flex-wrap items-center justify-center md:justify-start gap-5">
+        <span class="inline-flex items-center gap-1.5 text-slate-300">
+          <i data-lucide="map-pin" class="w-3.5 h-3.5 text-[#C49A52]"></i>
+          1/374, Jankipuram Extension, Lucknow, Uttar Pradesh
+        </span>
+        <span class="hidden sm:inline text-white/20">|</span>
+        <a href="tel:7905701738" class="inline-flex items-center gap-1.5 hover:text-white text-slate-300 transition-colors">
+          <i data-lucide="phone" class="w-3.5 h-3.5 text-[#C49A52]"></i>
+          +91 7905701738
+        </a>
+        <a href="tel:8840396248" class="hidden sm:inline-flex items-center gap-1.5 hover:text-white text-slate-300 transition-colors">
+          <i data-lucide="phone" class="w-3.5 h-3.5 text-[#C49A52]"></i>
+          +91 8840396248
+        </a>
+      </div>
+      <div class="flex items-center gap-4">
+        <span class="text-slate-400">Operating across: <strong class="text-slate-200 font-medium">UP East & Madhya Pradesh</strong></span>
+        <span class="text-white/20 hidden md:inline">|</span>
+        <a href="assets/docs/HS_Power_Services_Company_Profile.pdf" download class="inline-flex items-center gap-1 text-[#C49A52] hover:text-[#DFC08A] font-medium transition-colors">
+          <i data-lucide="download" class="w-3.5 h-3.5"></i>
+          Company Profile PDF
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAVIGATION HEADER -->
+  <header class="sticky top-0 z-50 bg-white border-b border-slate-200 shadow-xs">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        
+        <a href="index.html" class="flex items-center gap-3.5 group">
+          <img src="assets/img/logo/hps_logo_navbar.png" alt="H.S. Power Services Logo" class="h-11 sm:h-12 w-auto object-contain">
+          <div class="flex flex-col border-l border-slate-200 pl-3">
+            <span class="font-heading font-extrabold text-lg sm:text-xl tracking-tight text-[#14283F] leading-none">
+              H.S. POWER SERVICES
+            </span>
+            <span class="text-[10px] font-semibold uppercase tracking-wider text-[#687587] mt-1">
+              Engineering & Infrastructure Contractors
+            </span>
+          </div>
+        </a>
+
+        <nav class="hidden lg:flex items-center gap-7 font-medium text-sm text-[#111827]">
+          <a href="index.html" class="text-slate-600 hover:text-[#14283F] pb-1 transition-colors">Home</a>
+          <a href="about.html" class="text-slate-600 hover:text-[#14283F] pb-1 transition-colors">About Us</a>
+          <a href="services.html" class="text-[#14283F] font-bold border-b-2 border-[#C49A52] pb-1">Services</a>
+          <a href="projects.html" class="text-slate-600 hover:text-[#14283F] pb-1 transition-colors">Projects</a>
+          <a href="index.html#hubs" class="text-slate-600 hover:text-[#14283F] pb-1 transition-colors">Regional Hubs</a>
+          <a href="index.html#clients" class="text-slate-600 hover:text-[#14283F] pb-1 transition-colors">Our Clients</a>
+          <a href="contact.html" class="text-slate-600 hover:text-[#14283F] pb-1 transition-colors">Contact</a>
+        </nav>
+
+        <div class="hidden sm:flex items-center gap-3">
+          <a href="contact.html" class="btn-primary">
+            <span>Request a Quote</span>
+            <i data-lucide="arrow-right" class="w-3.5 h-3.5 text-[#00B6FE]"></i>
+          </a>
+        </div>
+
+        <button id="mobile-menu-btn" class="lg:hidden p-2 text-slate-700 hover:bg-slate-100 rounded" aria-label="Toggle Navigation">
+          <i data-lucide="menu" class="w-6 h-6"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div id="mobile-menu" class="hidden lg:hidden border-b border-slate-200 bg-white px-5 pt-3 pb-6 space-y-3 shadow-xl">
+      <div class="flex justify-between items-center pb-2 border-b border-slate-100">
+        <span class="text-xs uppercase font-bold tracking-wider text-slate-400">Navigation</span>
+        <button id="mobile-menu-close" class="p-1 text-slate-500 hover:text-slate-900" aria-label="Close menu">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+      <div class="grid gap-2 text-sm font-medium text-slate-800">
+        <a href="index.html" class="mobile-nav-link py-2 px-3 rounded hover:bg-slate-50">Home</a>
+        <a href="about.html" class="mobile-nav-link py-2 px-3 rounded hover:bg-slate-50">About Us</a>
+        <a href="services.html" class="mobile-nav-link py-2 px-3 rounded bg-slate-50 text-[#14283F] font-bold">Services</a>
+        <a href="projects.html" class="mobile-nav-link py-2 px-3 rounded hover:bg-slate-50">Projects</a>
+        <a href="index.html#hubs" class="mobile-nav-link py-2 px-3 rounded hover:bg-slate-50">Regional Hubs</a>
+        <a href="index.html#clients" class="mobile-nav-link py-2 px-3 rounded hover:bg-slate-50">Our Clients</a>
+        <a href="contact.html" class="mobile-nav-link py-2 px-3 rounded hover:bg-slate-50">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- EDITORIAL PAGE HEADER -->
+  <section class="bg-white border-b border-slate-200 py-16 sm:py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl">
+      <div class="editorial-eyebrow mb-2">Technical Capabilities</div>
+      <h1 class="font-heading font-extrabold text-3xl sm:text-4xl lg:text-5xl text-[#14283F] tracking-tight">
+        Engineering Capabilities & Scope of Work
+      </h1>
+      <p class="text-slate-600 text-base sm:text-lg mt-3 leading-relaxed">
+        Detailed technical breakdown of our four documented core infrastructure areas, backed by verified field experience, qualified project engineers, and disciplined execution.
+      </p>
+    </div>
+  </section>
+
+  <!-- DISCIPLINE 1: TELECOM & NETWORK INFRASTRUCTURE -->
+  <section id="telecom" class="py-16 sm:py-24 bg-[#F6F7F8] border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-12 gap-12 items-start">
+        
+        <div class="lg:col-span-7 space-y-6">
+          <div class="space-y-3">
+            <span class="text-xs font-mono font-semibold text-[#00B6FE] uppercase tracking-wider">
+              Discipline 01
+            </span>
+            <h2 class="font-heading font-extrabold text-2xl sm:text-3xl lg:text-4xl text-[#14283F]">
+              Telecom & Network Infrastructure
+            </h2>
+            <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+              H.S. Power Services provides comprehensive cell tower installation, plant manufacturing, and conditional monitoring across UP East. Our operations focus heavily on <strong>preventive maintenance</strong> to minimize the possibility of unanticipated production interruption or major breakdowns by uncovering structural or electrical issues before failure occurs. Other services include scheduled breakdown and predictive maintenance services.
+            </p>
+            <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+              In small cell sites across UP East and Madhya Pradesh (MP), our services begin with site acquisition focused on minimizing disputes with landowners, followed by site installation with guaranteed <strong>zero punch points</strong>.
+            </p>
+          </div>
+
+          <!-- Documented Scope Grid -->
+          <div class="pt-2">
+            <h4 class="font-heading font-bold text-xs uppercase tracking-wider text-[#14283F] mb-3">
+              Documented Scope of Work:
+            </h4>
+            <div class="grid sm:grid-cols-2 gap-2.5 text-xs text-slate-700">
+              <div class="p-3 bg-white rounded-xs border border-slate-200">✓ PIU Installation (Power Interface Unit)</div>
+              <div class="p-3 bg-white rounded-xs border border-slate-200">✓ Battery Bank Installation & Load Testing</div>
+              <div class="p-3 bg-white rounded-xs border border-slate-200">✓ Power Plant Installation & Commissioning</div>
+              <div class="p-3 bg-white rounded-xs border border-slate-200">✓ DG Installation, Locking & Battery Caging</div>
+              <div class="p-3 bg-white rounded-xs border border-slate-200">✓ Tower Foundation Construction & Rebar</div>
+              <div class="p-3 bg-white rounded-xs border border-slate-200">✓ Electrical Work & Upgradation</div>
+              <div class="p-3 bg-white rounded-xs border border-slate-200">✓ Small Cell Site Acquisition (Dispute-Free)</div>
+              <div class="p-3 bg-white rounded-xs border border-slate-200">✓ Pole (9mtr / 6mtr) Installation</div>
+              <div class="p-3 bg-white rounded-xs border border-slate-200">✓ Electricity Board (EB) Power Connections</div>
+              <div class="p-3 bg-white rounded-xs border border-slate-200">✓ RF Cabling & Scheduled Breakdown Support</div>
+            </div>
+          </div>
+
+          <div class="pt-3">
+            <a href="contact.html?service=telecom" class="btn-primary">
+              <span>Discuss Telecom Requirements</span>
+              <i data-lucide="arrow-right" class="w-3.5 h-3.5 text-[#00B6FE]"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="lg:col-span-5 space-y-4">
+          <div class="editorial-photo rounded-xs border border-slate-200 h-72">
+            <img src="assets/img/telecom/tower_site_1.jpg" alt="Macro Cell Tower Installation UP East" class="w-full h-full object-cover">
+          </div>
+          <div class="grid grid-cols-2 gap-3">
+            <div class="editorial-photo rounded-xs border border-slate-200 h-44">
+              <img src="assets/img/telecom/small_cell_1.jpg" alt="9m Small Cell Pole Site" class="w-full h-full object-cover">
+            </div>
+            <div class="editorial-photo rounded-xs border border-slate-200 h-44">
+              <img src="assets/img/telecom/tower_site_3.jpg" alt="Power Interface and DG Setup" class="w-full h-full object-cover">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- DISCIPLINE 2: RENEWABLE ENERGY & SOLAR EPC -->
+  <section id="solar" class="py-16 sm:py-24 bg-white border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-12 gap-12 items-start">
+        
+        <div class="lg:col-span-5 space-y-4 order-2 lg:order-1">
+          <div class="editorial-photo rounded-xs border border-slate-200 h-72">
+            <img src="assets/img/solar/solar_roof_1.jpg" alt="Commercial Solar Rooftop EPC" class="w-full h-full object-cover">
+          </div>
+          <div class="grid grid-cols-2 gap-3">
+            <div class="editorial-photo rounded-xs border border-slate-200 h-44">
+              <img src="assets/img/solar/solar_roof_2.jpg" alt="Industrial Solar Rooftop Structure" class="w-full h-full object-cover">
+            </div>
+            <div class="editorial-photo rounded-xs border border-slate-200 h-44">
+              <img src="assets/img/solar/solar_roof_3.jpg" alt="Solar Inverter Station Interconnection" class="w-full h-full object-cover">
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:col-span-7 space-y-6 order-1 lg:order-2">
+          <div class="space-y-3">
+            <span class="text-xs font-mono font-semibold text-[#00B6FE] uppercase tracking-wider">
+              Discipline 02
+            </span>
+            <h2 class="font-heading font-extrabold text-2xl sm:text-3xl lg:text-4xl text-[#14283F]">
+              Renewable Energy (Commercial & Industrial Solar)
+            </h2>
+            <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+              H.S. Power Services is a dedicated business platform that provides comprehensive turnkey solutions combining <strong>development, financing, construction, and operation</strong> of solar rooftops for commercial and industrial applications.
+            </p>
+            <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+              In addition, we provide ongoing Operations & Maintenance (O&M) to ensure extended lifetime value and project durability. We manage technical feasibility checks, structural load analysis, net metering, and compliance with UP NEDA regulations.
+            </p>
+          </div>
+
+          <div class="pt-2">
+            <h4 class="font-heading font-bold text-xs uppercase tracking-wider text-[#14283F] mb-3">
+              Solar Scope & Deliverables:
+            </h4>
+            <div class="grid sm:grid-cols-2 gap-2.5 text-xs text-slate-700">
+              <div class="p-3 bg-[#F6F7F8] rounded-xs border border-slate-200">✓ Turnkey Commercial & Industrial Solar Rooftops</div>
+              <div class="p-3 bg-[#F6F7F8] rounded-xs border border-slate-200">✓ High-Tensile Galvanized Mounting Structures</div>
+              <div class="p-3 bg-[#F6F7F8] rounded-xs border border-slate-200">✓ Inverter Station & ACDB/DCDB Interconnection</div>
+              <div class="p-3 bg-[#F6F7F8] rounded-xs border border-slate-200">✓ Net Metering & Electricity Board Liaisoning</div>
+              <div class="p-3 bg-[#F6F7F8] rounded-xs border border-slate-200">✓ UP NEDA Guidelines & Approvals Compliance</div>
+              <div class="p-3 bg-[#F6F7F8] rounded-xs border border-slate-200">✓ Preventative & Corrective Solar O&M Support</div>
+            </div>
+          </div>
+
+          <div class="pt-3">
+            <a href="contact.html?service=solar" class="btn-primary">
+              <span>Discuss Solar Plant Scope</span>
+              <i data-lucide="arrow-right" class="w-3.5 h-3.5 text-[#00B6FE]"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- DISCIPLINE 3: EV CHARGING INFRASTRUCTURE -->
+  <section id="ev" class="py-16 sm:py-24 bg-[#F6F7F8] border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-12 gap-12 items-start">
+        
+        <div class="lg:col-span-7 space-y-6">
+          <div class="space-y-3">
+            <span class="text-xs font-mono font-semibold text-[#00B6FE] uppercase tracking-wider">
+              Discipline 03
+            </span>
+            <h2 class="font-heading font-extrabold text-2xl sm:text-3xl lg:text-4xl text-[#14283F]">
+              30 kVA to 60 kVA Fast EV Charging Stations
+            </h2>
+            <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+              HSPS enables reliable infrastructure for electric mobility by providing <strong>30 kVA to 60 kVA fast-charging EV stations</strong> across urban and semi-urban transit corridors. Working toward scalable charging ecosystems in collaboration with major industry players such as Adani, WeGreen, NRN, MLL Mobility, and Rozana Rural Commerce.
+            </p>
+            <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+              We execute complete turnkey station development: reinforced concrete plinths, weatherproof canopies, transformer interfacing, dual-gun fast DC pedestal mounting, dedicated LT distribution panels, and chemical earthing pits.
+            </p>
+          </div>
+
+          <div class="pt-2">
+            <h4 class="font-heading font-bold text-xs uppercase tracking-wider text-[#14283F] mb-3">
+              EV Charging Specifications:
+            </h4>
+            <div class="grid sm:grid-cols-2 gap-2.5 text-xs text-slate-700">
+              <div class="p-3 bg-white rounded-xs border border-slate-200">✓ 30 kVA & 60 kVA Fast DC Charging Pedestals</div>
+              <div class="p-3 bg-white rounded-xs border border-slate-200">✓ Dual-Gun CCS2 / Type 2 Configurations</div>
+              <div class="p-3 bg-white rounded-xs border border-slate-200">✓ Heavy Civil Foundation Plinths & Canopies</div>
+              <div class="p-3 bg-white rounded-xs border border-slate-200">✓ Transformer Step-Down & LT Substation Works</div>
+              <div class="p-3 bg-white rounded-xs border border-slate-200">✓ Commercial Fleet & Semi-Urban Hub Setup</div>
+              <div class="p-3 bg-white rounded-xs border border-slate-200">✓ 24/7 Breakdown Response & Preventive Testing</div>
+            </div>
+          </div>
+
+          <div class="pt-3">
+            <a href="contact.html?service=ev" class="btn-primary">
+              <span>Discuss EV Charging Hub</span>
+              <i data-lucide="arrow-right" class="w-3.5 h-3.5 text-[#00B6FE]"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="lg:col-span-5 space-y-4">
+          <div class="editorial-photo rounded-xs border border-slate-200 h-72">
+            <img src="assets/img/ev/ev_station_1.jpg" alt="Commercial EV Charging Station" class="w-full h-full object-cover">
+          </div>
+          <div class="editorial-photo rounded-xs border border-slate-200 h-56">
+            <img src="assets/img/ev/ev_station_2.jpg" alt="Dual-Gun EV Charging Pedestal Setup" class="w-full h-full object-cover">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- DISCIPLINE 4: BUILDING CONSTRUCTION & RAILWAY OHE -->
+  <section id="civil" class="py-16 sm:py-24 bg-white border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-12 gap-12 items-start">
+        
+        <div class="lg:col-span-5 space-y-4 order-2 lg:order-1">
+          <div class="editorial-photo rounded-xs border border-slate-200 h-72">
+            <img src="assets/img/civil/railway_ohe_mast.jpg" alt="Railway OHE Mast Foundation Casting" class="w-full h-full object-cover">
+          </div>
+          <div class="editorial-photo rounded-xs border border-slate-200 h-56">
+            <img src="assets/img/civil/construction_site_1.jpg" alt="Civil Building Construction Work" class="w-full h-full object-cover">
+          </div>
+        </div>
+
+        <div class="lg:col-span-7 space-y-6 order-1 lg:order-2">
+          <div class="space-y-3">
+            <span class="text-xs font-mono font-semibold text-[#00B6FE] uppercase tracking-wider">
+              Discipline 04
+            </span>
+            <h2 class="font-heading font-extrabold text-2xl sm:text-3xl lg:text-4xl text-[#14283F]">
+              Building Construction & Railway OHE Mast Foundations
+            </h2>
+            <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+              HSPS executes institutional building construction and heavy civil foundations. Backed by corporate contracts with <strong>NCC Limited (NCCL)</strong>, <strong>TBEA India Pvt Ltd</strong>, and <strong>KEC International Limited</strong>.
+            </p>
+            <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+              In railway infrastructure, we specialize in Overhead Electrification (OHE) mast foundation boring, heavy anchor cage rebar fabrication, precision anchor bolt alignment, and high-grade concrete pouring adhering strictly to railway safety norms.
+            </p>
+          </div>
+
+          <div class="pt-2">
+            <h4 class="font-heading font-bold text-xs uppercase tracking-wider text-[#14283F] mb-3">
+              Civil & Railway Scope:
+            </h4>
+            <div class="grid sm:grid-cols-2 gap-2.5 text-xs text-slate-700">
+              <div class="p-3 bg-[#F6F7F8] rounded-xs border border-slate-200">✓ Railway OHE Mast Foundation Boring & Casting</div>
+              <div class="p-3 bg-[#F6F7F8] rounded-xs border border-slate-200">✓ Precision Anchor Bolt Alignment & Cages</div>
+              <div class="p-3 bg-[#F6F7F8] rounded-xs border border-slate-200">✓ Institutional & Commercial Building Works</div>
+              <div class="p-3 bg-[#F6F7F8] rounded-xs border border-slate-200">✓ High-Grade Concrete & Structural Steel</div>
+              <div class="p-3 bg-[#F6F7F8] rounded-xs border border-slate-200">✓ Track-Side Safety Protocol Compliance</div>
+              <div class="p-3 bg-[#F6F7F8] rounded-xs border border-slate-200">✓ Substation Foundation & Trenching Works</div>
+            </div>
+          </div>
+
+          <div class="pt-3">
+            <a href="contact.html?service=civil" class="btn-primary">
+              <span>Discuss Civil & OHE Contracts</span>
+              <i data-lucide="arrow-right" class="w-3.5 h-3.5 text-[#00B6FE]"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-[#0B1726] text-slate-400 text-xs py-10 border-t border-slate-800 text-center">
+    <div class="max-w-7xl mx-auto px-4">
+      <div>© 2026 H.S. POWER SERVICES. All Rights Reserved. • Office: 1/374, Jankipuram Extension, Lucknow</div>
+    </div>
+  </footer>
+
+  <!-- BACK TO TOP -->
+  <button id="back-to-top" class="back-to-top-btn" title="Back to top" aria-label="Back to top">
+    <i data-lucide="chevron-up" class="w-5 h-5"></i>
+  </button>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
