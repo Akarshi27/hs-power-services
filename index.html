@@ -159,8 +159,14 @@
   </header>
 
   <!-- SECTION B: EDITORIAL ARCHITECTURAL HERO -->
-  <section class="bg-white border-b border-slate-200">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-20">
+  <section class="relative overflow-hidden bg-white border-b border-slate-200">
+    <!-- Ambient Solar Background Motion Layer -->
+    <div class="hero-ambient-motion-wrap" aria-hidden="true">
+      <img src="assets/img/solar/solar_hero_rooftop.jpg" alt="" class="hero-ambient-motion-img">
+      <div class="hero-ambient-scrim"></div>
+    </div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-20 relative z-10">
       <div class="grid lg:grid-cols-12 gap-10 lg:gap-14 items-center">
         
         <!-- Left Column: Editorial Text Composition (~48% Width) -->
@@ -215,9 +221,9 @@
         <!-- Right Column: Authentic Infrastructure Photograph (~52% Width) -->
         <div class="lg:col-span-6">
           <div class="hero-photo-frame rounded-xs h-[360px] sm:h-[440px] lg:h-[500px]">
-            <img src="assets/img/telecom/tower_site_1.jpg" alt="Macro Cell Tower Infrastructure Deployment in UP East Circle" class="w-full h-full object-cover">
+            <img src="assets/img/solar/solar_hero_rooftop.jpg" alt="Commercial Solar Rooftop EPC by H.S. Power Services" class="w-full h-full object-cover hero-main-img">
             <div class="hero-photo-caption">
-              <span class="font-heading font-semibold">Macro Cell Tower Deployment • UP East Circle</span>
+              <span class="font-heading font-semibold">Commercial Solar Rooftop EPC • Turnkey Installation</span>
               <span class="text-slate-300 hidden sm:inline text-[10px] uppercase tracking-wider">H.S. Power Services Field Work</span>
             </div>
           </div>
