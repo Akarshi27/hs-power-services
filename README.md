@@ -99,3 +99,11 @@ You can also simply double-click **`index.html`** to open it directly in any mod
 - **GitHub Pages:** Create a repository on GitHub, upload this folder, and enable GitHub Pages under repository settings.
 - **Netlify / Vercel:** Simply drag and drop the `HS Power Services` folder onto Netlify Drop ([app.netlify.com/drop](https://app.netlify.com/drop)) for instantaneous custom URL hosting with free SSL.
 - **cPanel / Domain Hosting:** Upload the contents into your `public_html` directory via FTP or cPanel File Manager.
+
+
+---
+
+## Direct Contact
+- **Head Office**: 1/374, Jankipuram Extension, Lucknow, Uttar Pradesh
+- **Official Email**: [serviceshspower@gmail.com](mailto:serviceshspower@gmail.com)
+- **Primary Phones**: +91 7905701738 / +91 8840396248
